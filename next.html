@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua dieta</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Responda o formulario para sua dieta</h1>
+    </header>
+    <main>
+        <form action="diet.php" method="get" >
+            <div class="Vegano">
+                <legend>Você é Vegano</legend>
+                <input type="checkbox" name="simvegan" id="idsimvegan">
+                <label for="checkbox">Sim</label>
+                <input type="checkbox" name="novegan" id="idnovegan">
+                <label for="checkbox">Não</label>
+            </div>
+            <br>
+            <div class="Vegetariano">
+                <legend>Você é Vegetariano</legend>
+                <input type="checkbox" name="simvegetan" id="idsimvegetan">
+                <label for="checkbox">Sim</label>
+                <input type="checkbox" name="novegetan" id="idnovegetan">
+                <label for="checkbox">Não</label>
+            </div>
+            <br>
+            <div class="lactose">
+                <legend>É intolerante a lactose</legend>
+                <input type="checkbox" name="simlac" id="idsimlac">
+                <label for="checkbox">Sim</label>
+                <input type="checkbox" name="nolac" id="idnolac">
+                <label for="checkbox">Não</label>
+            </div>
+            <br>
+            <div class="água">
+                <legend>Quanto de água vc bebe por dia </legend>
+                <input type="number">
+                
+            </div>
+            <div class=""></div>
+        </form>
+    </main>
+</body>
+</html>

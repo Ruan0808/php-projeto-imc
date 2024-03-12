@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Indique sua dieta </title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="shortcut icon" href="imagens/dieta.ico" type="image/x-icon">
+</head> 
 <body>
     <header>
         <h1> Apresente para nós</h1>
     </header>
-    <section>
-        <form action="cat.php" method="get">
-        <label for="Nome">Nome</label>
-        <input type="text" name="Nome" id="idnome">
-        <label for="sobrenome">sobrenome</label>
-        <input type="text" name="sobrenome" id="idsobrenome">
-        <label for="idade">Idade</label>
-        <input type="text" name="idade" id="ididade">
-        <label for="peso">Peso</label>
-        <input type="text" name="peso" id="idpeso">
-        <input type="submit" value="ENVIAR">
-        </form>
-    </section>
+    <main>
 
-
-    
-</body>
-</html>
+        <section>
+            <form action="cat.php"  method="get">
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id="idnome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="idsobrenome">
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="ididade">
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="idpeso">
+                <input type="hidden" name="hidden">
+                <input type="submit" value="ENVIAR">
+            </form>
+        </section>
+    </main>
+    </body>
+    </html>
