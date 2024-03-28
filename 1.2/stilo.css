@@ -1,0 +1,73 @@
+/* Reset CSS para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento da linha */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #81c784; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px 0; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Navegação */
+nav ul {
+    list-style: none; /* Remove estilos de lista */
+    background-color: #66bb6a; /* Cor de fundo da navegação */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin-right: 20px; /* Margem à direita dos itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold; /* Peso da fonte */
+}
+
+/* Seção principal */
+.main {
+    padding: 50px 0; /* Espaçamento interno */
+    background: url('dieta-background.jpg') no-repeat center center/cover; /* Imagem de fundo com cobertura completa */
+}
+
+/* Conteúdo principal */
+.content {
+    width: 90%; /* Largura do conteúdo */
+    margin: auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Rodapé */
+footer {
+    background-color: #558b2f; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    margin-top: 30px; /* Margem superior */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Exibe os itens da lista em blocos separados */
+        margin: 10px 0; /* Margem superior e inferior */
+    }
+}

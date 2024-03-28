@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1>Responda esse formulario para adquirir sua Dieta</h1>
+    
+    
+    <footer>
+        <header>
+            
+            <form action="Resultado.php"  method="get">
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id="idnome">
+                <br>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="idsobrenome">
+            <br>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="ididade">
+            <br>
+            <label for="alt">Altura</label>
+            <input type="number" name="alt" id="idalt" step="0.01">
+            <br>
+            <label for="peso">Peso</label>
+            <input type="number" name="peso" id="idpeso" step="0.01">
+            <br>
+            <input type="hidden" name="hidden">
+            <div class="Vegano">
+                <legend>Você é Vegano</legend>
+                <input type="radio" name="vegan" id="idvegan" value="S" >
+                <label for="radio">Sim</label>
+                <input type="radio" name="vegan" id="idvegan" value="N">
+                <label for="radio">Não</label>
+            </div>
+            <br>
+            <div class="Vegetariano">
+                <legend>Você é Vegetariano</legend>
+                <input type="radio" name="vege" id="idvege" value="S">
+                <label for="radio">Sim</label>
+                <input type="radio" name="vege" id="idvege" value="N">
+                <label for="radio">Não</label>
+            </div>
+            <br>
+            <div class="lactose">
+                <legend>É intolerante a lactose</legend>
+                <input type="radio" name="lac" id="idlac" value="S">
+                <label for="radio">Sim</label>
+                <input type="radio" name="lac" id="idlac" value="N">
+                <label for="radio">Não</label>
+            </div>
+            <br>
+            
+            <div class="whater">
+                <label for="agua">Quanto de água você bebe</label>
+                <input type="number" name="agua" id="idagua" step="0.1">
+            </div>
+            
+            
+            <div class="objetive">
+                <legend>O que você quer com essa dieta?</legend>
+                <input type="radio" name="pm" id="idpm" value="P">
+                <label for="radio">Perder peso</label>
+                <input type="radio" name="pm" id="idpm" value="M">
+                <label for="radio">Ganhar massa muscular</label>
+            </div>
+            <input type="submit" value="ENVIAR E ADQUIRIR SUA DIETA">
+        </form>
+    </footer>
+</body>
+</html>
